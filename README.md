@@ -8,5 +8,3 @@
 - 노드 개발
 - Gulp 
 - WebPack
-
-Hi EveryOne!!!
