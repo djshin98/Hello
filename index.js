@@ -5,3 +5,15 @@ var sum = a.reduce(function(curr, prev) {
 });
 
 console.log("sum = " + sum);
+
+function sum(a, b) {
+    return a + b;
+}
+
+function sum(array, callback) {
+    var sum = 0;
+    array.forEach(runction(value){
+        sum += callback(value);
+    });
+    return sum;
+}

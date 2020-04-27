@@ -1,0 +1,35 @@
+@import "header";
+
+body{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+@mixin hi($a){
+    border-radius: $a;
+}
+
+$class : "body";
+$val : 1px;
+.button-success {
+    @extend #{$class};
+    @include hi(2px);
+    background: rgb(177, 114, 32); /* this is a green */
+    
+}
+
+.button-error {
+    border: $val solid #ddd;
+    @extend #{$class};
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+    @extend #{$class};
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+    @extend #{$class};
+    background: rgb(66, 184, 221); /* this is a light blue */
+}

@@ -1,12 +1,18 @@
-# Hello
-## Hello
-### Hello
-#### Hello
-###### Hello
-####### Hello
+# FullStack Developer
+asm, c, 터보 c, 볼랜드 c , 비주얼 c , java , c# , javascritp , html5 , py, **rust**
+- ## front-end 개발
+>> css , html , js 
 
-- 노드 개발
-- Gulp 
-- WebPack
+- ## back-end 개발
+>> 전자정보 프레임워크
+>> 예매 시스템 
 
-Hi **Every**One
+- ## Desktop 개발
+>> electron , chromium
+
+- ## Mobile 개발
+
+# java - jsp -  mybatis
+
+## 실내공기질
+## 농업공간정보 시스템
